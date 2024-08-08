@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="css/normilize.css">
+  <link rel="stylesheet" href="css/webstudio.css" />
+  <title>WEBSTUDIO</title>
+</head>
+
+<body>
+  <!--хедер-->
+  <header class="page-header">
+    <div class="container">
+      <img class="logo" src="webstudioimg/logo.png" alt="logo" />
+      <nav class="header-nav">
+        <a class="header-nav-item" href="index.html">Студія</a>
+        <a class="header-nav-item" href="portfolio.html">Портфоліо</a>
+        <a class="header-nav-item" id="header-nav-third-element" href="#">Контакти</a>
+        <a class="header-nav-item header-nav-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-nav-item header-nav-contact" href="tel:+3800961111111">+380 096 111 11 11</a>
+    </div>
+    </nav>
+    </div>
+  </header>
+  <!--меін-->
+  <main>
+    <!--1 секція-->
+    <section class="section-one">
+      <div class="container">
+        <div class="section-one-elements">
+          <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button class="button-section-one" type="button" data-modal-open>
+          Замовити послугу
+        </button>
+        <div class="backdrop is-hidden" data-modal>
+          <form class="modal">
+              <div class="modal-title">
+                  <h2 class="form_title">Залиште свої дані, ми вам передзвонимо</h2>
+                  <button class="btn" data-modal-close><img class="modal-img" src="https://www.svgrepo.com/show/513658/cross.svg"></button>
+              </div>
+  
+              <label class="form-label" for="firstname">Ім'я</label>
+              <input class="form-input1" type="text" name="firstname" id="firstname"
+                  required minlength="2" maxlength="30">
+  
+  
+              <label class="form-label" for="phone">Телефон</label>
+              <input class="form-input2" type="tel" name="phone" id="phone"
+                  required minlength="2" maxlength="30">
+  
+              <label class="form-label" for="email">Пошта</label>
+              <input class="form-input3" type="email" name="email" id="email"
+                  required pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                  title="Введіть коректну електронну адресу">
+  
+              <label class="form-label" for="comment">Коментар</label>
+              <textarea class="form-input4" name="comment" id="comment"
+                  minlength="10" maxlength="256" placeholder="Введіть текст"></textarea>
+              <div class="form_father_accept">
+                <input class="form-accept" name="accept"   type="checkbox">
+                <label for="accept">Погоджуюся з россилкою та приймаю <a href="#">умови Договору</a></label>
+              </div>
+
+              <button class="form-btn button" type="submit">Відправити</button>
+              
+          </form>
+      </div>
+        </div>
+      </div>
+    </section>
+    <!--2 секція-->
+    <section class="section-two">
+
+      <div class="container">
+        <div class="attention sectiontwo-item">
+          <h5>УВАГА ДО ДЕТАЛЕЙ</h5>
+          <p>
+            Ідейні міркування,і навіть початок повсякденної роботи з
+            формування позиції.
+          </p>
+        </div>
+        <div class="punctuality sectiontwo-item">
+          <h5>ПУНКТУАЛЬНІСТЬ</h5>
+          <p>
+            Завдання організації, особливо рамки і місце навчання кадрів
+            тягне у себе.
+          </p>
+        </div>
+        <div class="plan sectiontwo-item">
+          <h5>ПЛАНУВАННЯ</h5>
+          <p>
+            Так само консультація з широким активом значною мірою
+            зумовлює.
+          </p>
+        </div>
+        <div class="modern-technologies sectiontwo-item">
+          <h5>СУЧАСНІ ТЕХНОЛОГІЇ</h5>
+          <p>
+            Значимість цих проблем настільки очевидна, що реалізація
+            планових завдань.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--3 секція-->
+    <section class="section-three">
+      <div class="container">
+        <h2>Чим ми займаємось</h2>
+        <div class="section-three-wrap">
+          <img class="section-three-img" src="webstudioimg/box_1.jpg" alt="box_1" />
+          <img class="section-three-img" src="webstudioimg/box_2.jpg" alt="box_2" />
+          <img class="section-three-img" src="webstudioimg/box_3.jpg" alt="box_3" />
+        </div>
+      </div>
+    </section>
+    <!--4 секція-->
+    <section class="section-four">
+      <div class="container">
+        <h2>Наша команда</h2>
+        <div class="section-four-wrap">
+          <div class="section-four-item">
+            <figure class="section-four-item-figure">
+              <img class="section-three-container-img" src="webstudioimg/ihor_demyanenko.jpg" alt="Ihor Demyanenko.Product Designer
+              " width="300" />
+              <figcaption class="section-four-figcaption">
+                <h6 class="section-three-title">Ігор Дем'яненко</h6>
+                <p class="section-three-text">Product Designer</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="section-four-item">
+            <figure class="section-four-item-figure">
+              <img class="section-three-container-img" src="webstudioimg/olga_repina.jpg" alt="Olga Repina.Frontend Developer
+              " width="300" />
+              <figcaption class="section-four-figcaption">
+                <h6 class="section-three-title">Ольга Рєпіна</h6>
+                <p class="section-three-text">Product Designer</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="section-four-item">
+            <figure class="section-four-item-figure">
+              <img class="section-three-container-img" src="webstudioimg/mykola_tarasov.jpg" alt="Mykola Tarasov.Marketing
+              " width="300" />
+              <figcaption class="section-four-figcaption">
+                <h6 class="section-three-title">Микола Тарасенко</h6>
+                <p class="section-three-text">Product Designer</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="section-four-item">
+            <figure class="section-four-item-figure">
+              <img class="section-three-container-img" src="webstudioimg/mykhailo_yermakov.jpg" alt="Mykhailo Yermakov.UI Designer
+              " width="300" />
+              <figcaption class="section-four-figcaption">
+                <h6 class="section-three-title">Михайло Єрмаков</h6>
+                <p class="section-three-text">Product Designer</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--футер-->
+  <footer class="footer">
+    <div class="container">
+      <img src="webstudioimg/logo2.0.png" alt="logo" />
+      <ul class="footer-list">
+        <li>
+          <a id="unique-element" href="#">м. Київ, пр-т Лесі Українки, 26</a>
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+3800961111111">+380 096 111 11 11</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

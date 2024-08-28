@@ -1,0 +1,62 @@
+.section-two {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 170%;
+    padding: 94px 0;
+    flex-wrap: wrap;
+  }
+  
+  .section-two h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    line-height: 114%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .section-two .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sectiontwo-item {
+    width: 270px;
+  }
+  
+  .attention::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-image: url('../webstudioimg/icon1.svg');
+    background-size: cover;
+  }
+  
+  .punctuality::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-image: url('../webstudioimg/icon2.svg');
+    background-size: cover;
+  }
+  
+  .plan::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-image: url('../webstudioimg/icon3.svg');
+    background-size: cover;
+  }
+  
+  .modern-technologies::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-image: url('../webstudioimg/icon4.svg');
+    background-size: cover;
+  }

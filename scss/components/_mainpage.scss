@@ -1,0 +1,58 @@
+.section-one {
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+      width: 100%; /* або будь-який інший розмір, який ви визначили */
+    background-image: url('../webstudioimg/bgheader.jpg');
+  }
+  
+  .section-one::before {
+    content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(47, 48, 58, 0.4);
+      z-index: 1;
+  }
+  
+  .section-one-elements {
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .section-one h1 {
+    color: white;
+    width: 696px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .button-section-one {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 10px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 187%;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 2px;
+  }
+  
+  .button-section-one:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .section-one .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

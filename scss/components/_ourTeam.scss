@@ -1,0 +1,61 @@
+.section-four {
+    padding: 94px 0;
+    background-color: #f5f4fa;
+  }
+  
+  .section-four-item {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .section-four-figcaption {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-four h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 116%;
+    color: #000;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .section-four-item {
+    margin: 0 auto;
+  }
+  
+  .section-four-item h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 117%;
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+  
+  .section-four-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 117%;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+  
+  .section-four-item img {
+    width: 270px;
+    height: 260px;
+  }
+  
+  .section-four-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section-four-item-figure {
+    background-color: #fff;
+  }
+  
